@@ -1,0 +1,160 @@
+:root {
+
+    /* color */
+
+    --bg: #f2f5f9;
+    --primary: #ff9c1a;
+    --second: #ec1b09;
+    --bgwhite: #fff;
+    --abu: #E3E3E3;
+    --title: #0B090980;
+    
+
+
+
+    /* font */
+
+    --ff--poppins: 'poppins', sans-serif;
+    --ff--raleway: 'raleway', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+body { background: var(--bg); }
+
+.head {
+    padding: 18px 100px;
+    padding-bottom: 0px;                
+    justify-content: space-between;
+
+}
+.logo {
+    width: 100%;
+    background: green;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.info-button {
+    display: none;
+}
+
+.sidebar {
+    display: flex;
+    background: var(--bgwhite);
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 750px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-images {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profile-images img{
+    border-radius: 20px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    font-family: var(--ff--raleway);
+    
+}
+
+.info-content .nama {
+    font-size: 30px;
+    margin-top: 14px;
+
+}
+
+.info-content .tittle {
+    color: #0B090980;
+    padding: 5px 0px;
+    line-height: 40px;
+}
+
+
+.sosmed-icon {
+    margin-top: 6px;
+    margin-bottom: 22px;
+}
+
+.sosmed-icon a {
+    font-size: 20px;
+    margin: 10px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.sidebar-info {
+    background: var(--bg);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--abu);
+    padding: 10px 0;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.contact-icon {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.contact-image {
+    color: black;
+
+}
+.contact-tittle {
+    min-width: 70%;
+
+}
+
+.contact-tittle .info-contact {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
