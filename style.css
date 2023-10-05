@@ -40,7 +40,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    margin: 18px 100px 0px;
+    margin: 18px 115px 0px;
     padding: 44px 0px;
 }
 
@@ -191,7 +191,6 @@ main {
     font-family: var(--ff--raleway);
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
 }
 
 .contact-tittle h5 {
@@ -199,7 +198,7 @@ main {
     font-family: var(--ff--raleway);
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 540;
     line-height: 20px;
 }
 
@@ -233,11 +232,17 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 164px;
-    right: 162px;
+    margin-left: 275px;
     border-radius: 20px;
     border: 2px solid var(--abu);
 
 }
+
+
+
+
+
+
 
 .navbar-button {
     display: flex;
@@ -249,7 +254,6 @@ main {
 }
 
 .navbar-item {
-    padding-top: 13px;
     height: 80px;
     width: 80px;
     border-radius: 20px;
@@ -259,27 +263,22 @@ main {
     text-align: center;
 }
 
-.nav-name {
+
+.nav-img {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 80px;
+    padding-top: 13px;
+    text-align: center;
     color: #000;
-    font-family: var(--ff--raleway);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    text-decoration: none;
-
-
 }
 
-.nav-name-home {
+
+.nav-img:hover {
     color: var(--bgwhite);
-    font-family: var(--ff--raleway);
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    text-decoration: none;
 }
+
 
 .navbar-item:hover {
     background: var(--primary);
@@ -287,40 +286,33 @@ main {
 
 
 
-.nav-img {
-    color: #1A100380;
 
-}
-
-.nav-item a:hover {
-    color: var(--bgwhite);
-    background: #E1E8EF;
-
-}
 
 
 
 .section-home {
     justify-content: center;
     align-items: center;
-    width: 900px;
-    height: 870px;
-    padding-top: 170px;
+    width: 875px;
+
     display: block;
 
 }
 
 .homeee {
-    height: 700px;
+    height: 720px;
     background: var(--bgwhite);
     border-radius: 20px;
 
 }
 
+
 .home {
     padding-left: 73px;
-    padding-top: 28px;
     padding-right: 65px;
+    
+    margin-top: 152px;
+
 }
 
 .home-tittle {
@@ -331,6 +323,7 @@ main {
     font-weight: 520;
     line-height: 40px;
     letter-spacing: 1px;
+    padding-top: 38px;
 }
 
 .home p {
@@ -419,19 +412,12 @@ main {
 
 
 .section-home {
-    display: none;
+    /* display: none; */
 }
 
-.section-resume {
-    background: var(--bg);
-    width: 875px;
-    height: 870px;
-    display: block;
-}
 
 .resume {
-
-    padding-top: 152px;
+    margin-top: 152px;
 }
 
 .resume-all {
@@ -441,11 +427,10 @@ main {
     flex-shrink: 0;
     border-radius: 20px;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
-    padding-top: 28px;
 }
 
 .resume-tittle {
-    padding-top: 18px;
+    padding-top: 38px;
     padding-left: 72px;
     align-items: center;
     color: #0B0909;
@@ -454,7 +439,6 @@ main {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    /* 100% */
     letter-spacing: 1px;
 }
 
@@ -509,7 +493,7 @@ main {
     font-family: var(--ff--raleway);
     font-size: 13.869px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 550;
     line-height: normal;
 }
 
@@ -530,16 +514,15 @@ main {
     display: flex;
     align-items: flex-start;
     width: 875px;
-    height: 255px;
+    height: 285px;
     padding-left: 85px;
-    gap: 215px;
+    gap: 5px;
     border-radius: 0px 0px 8px 8px;
     background: #F8FBFB;
 
 }
 
 .skills-head {
-    color: #000;
     font-family: var(--ff--poppins);
     font-size: 27.737px;
     font-style: normal;
@@ -551,9 +534,11 @@ main {
 
 .skills-logo {
     display: inline-flex;
-    gap: 10px;
+    column-gap: 40px;
+    row-gap: 20px;
     padding-top: 8px;
-
+    flex-wrap: wrap;
+    padding-right: 100px;
 }
 
 .skills-work {
@@ -563,35 +548,27 @@ main {
     align-items: center;
     border-radius: 8px;
     background: #E1E8EF;
-
 }
 
 .skills-work p {
-    font-family: var(--ff--poppins);
+    font-family: var(--ff--raleway);
     font-size: 12px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.24px;
 }
 
-
-
 .section-resume {
-    display: none;
+    /* display: none; */
 }
 
 
 
-.section-contact {
-    background: var(--bg);
-    width: 875px;
-    height: 870px;
-    display: block;
-}
+
 
 .contact {
-    padding-top: 152px;
+    margin-top: 152px;
 }
 
 .contact-all {
@@ -617,6 +594,7 @@ main {
     letter-spacing: 1px;
     padding-left: 72px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .contact-no-email {
@@ -672,6 +650,7 @@ main {
     padding-left: 72px;
     padding-top: 32px;
 }
+
 .contact-form {
     width: 694px;
     height: 392px;
@@ -680,15 +659,39 @@ main {
     padding-top: 43px;
 
     color: #000;
-font-family: var(--ff--poppins);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.4px;
+    font-family: var(--ff--poppins);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4px;
     align-items: center;
     padding-left: 39px;
     padding-right: 76px;
+}
+
+.formulir {
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+.form-input {
+    background: none;
+    border-bottom: 1px solid #B5B5B5;
+}
+
+.submit {
+    display: inline-flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid #FD8A18;
+}
+.but {
+    padding-top: 26px;
 }
 
 
@@ -696,19 +699,219 @@ letter-spacing: 0.4px;
 
 
 
+/* responsive */
+
+@media(max-width: 1024px) {
+    head {
+        top: 0;
+        left: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-bottom: 0;
+        align-items: center;
+    }
 
 
 
+    .navbar {
+        position: fixed;
+        right: 0;
+        margin-top: 15px;
+        width: 40%;
+    }
+  
+    .sidebar {
+        display: flex;
+        align-items: center;
+        width: 920px;
+        height: 870px;
+        margin-left: 90px ;
+        font-size: 1px;
+        margin-bottom: 20px;
+    }
 
 
 
+    .section-home {
+        margin-left: 90px;
+        width: 920px;
+    }
+    
+    
+    .resume-all {
+        margin-left: 90px;
+        width: 920px;
+    }
+    .skills-info {
+        width: 920px;
+    }
+
+    .contact-all {
+        margin-left: 90px;
+        width: 920px;
+    }
+}
 
 
+@media(max-width: 767px) {
+    .head {
+        width: 0%;
+    }
 
+    main {
+        width: 100%;
+        
+    }
 
+    .navbar {
+        right: 0;
+        width: 400px;
+        height: 100px;
+        font-size: 15px;
+        background: none;
+        backdrop-filter: blur(5px);
+        border: 1px solid var(--abu);
+    }
+   
+    .sidebar {
+        width: 600px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .section-home {
+        width: 600px;
+        height: 900px;
+        margin-left: 0;
+    }
 
+    .homeee  {
+        height: 830px;
+    }
+    .service-paraf {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .resume-all {
+        width: 600px;
+        height: 900px;
+        margin-left: 0;
+    }
+    .resume-all {
+        padding-top: 20px;
+    }
+    .resume-head {
+        flex-wrap: wrap;
 
+    }
+ 
+    .skills-info {
+        width: 600px;
+        height: 225px;
+    }
 
+    .contact-all {
+        width: 600px;
+        margin-left: 0;
+        height: 950px;
+    }
+    .contact-no-email {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-form {
+        width: 450px;
+        height: 460px;
+    }
+}
 
+@media(max-width:599px) {
+    .head {
+        margin: 0;
+        padding-top: 130px;
+    }
+    main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        width: 275px;
+        backdrop-filter: blur(1px);
+        border: 1px solid rgb(224, 219, 214);
 
+    }
+    .navbar-item {
+        width: 30px;
+        background: none;
+        border: none;
+        left: 0;
+    }
+   
 
+    .navbar-item:hover {
+        background: none ;
+    }
+
+    .sidebar {
+        width: 285px;
+    }
+    .section-home {
+        width: 285px;
+        height: 1550px;
+    }
+    .homeee {
+        height: 1400px;
+    }
+    .home {
+        font-size: 2px;
+    }
+    .strength {
+        height: 300px;
+    }
+    .resume-all {
+        width: 285px;
+        height: 1020px;
+    }
+    .resume-tittle {
+        padding: 20px;
+
+    }
+    .resume-head {
+        padding: 10px;
+    }
+    .resume-content {
+        width: 200px;
+    }
+
+    .skills-info {
+        width: 285px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2px;
+        height: 330px;
+    }
+
+    .contact-all {
+        width: 285px;
+    }
+    .contact-head {
+        padding: 0;
+    }
+    .contact-no-email {
+        padding: 0;
+    }
+    .contact-info {
+        width: 281px;
+    }
+    .k-form {
+        width: 285px;
+        padding: 0;
+    }
+    .contact-form {
+        width: 285px;
+    }
+}
