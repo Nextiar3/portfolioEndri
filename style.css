@@ -28,11 +28,21 @@
     border: none;
     text-decoration: none;
 }
-
-
 body {
     background: var(--bg);
 }
+
+
+
+
+    
+
+
+
+    /* 
+    header
+    */
+
 
 .head {
     display: flex;
@@ -43,7 +53,6 @@ body {
     margin: 18px 115px 0px;
     padding: 44px 0px;
 }
-
 .logo {
     display: flex;
     padding: 20px 0px;
@@ -56,11 +65,20 @@ body {
     font-family: pacifico;
     color: var(--second);
 }
-
 .head span {
     color: var(--primary);
 
 }
+
+
+
+
+
+
+
+
+
+
 
 main {
     margin-inline: auto;
@@ -73,11 +91,35 @@ main {
     margin-right: 100px;
 }
 
-/* SIDEBAR */
+
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+
+
+        SIDEBAR 
+
+
+
+    
+    
+    */
+
+
+
 .info-button {
     display: none;
 }
-
 .sidebar {
     display: flex;
     background: var(--bgwhite);
@@ -90,17 +132,14 @@ main {
     align-items: center;
     flex-direction: column;
 }
-
 .profile-images {
     text-align: center;
 }
-
 .profile-images img {
     border-radius: 20px;
     margin-top: 3px;
     height: 200px;
 }
-
 .info-content {
     display: flex;
     flex-direction: column;
@@ -108,14 +147,12 @@ main {
     align-items: center;
     width: 100%;
 }
-
 .info-content .nama {
     font-size: 28px;
     padding-top: 14px;
     font-family: var(--ff--raleway);
     font-style: normal;
 }
-
 .info-content .tittle {
     color: rgba(11, 9, 9, 0.50);
     font-family: var(--ff--raleway);
@@ -125,26 +162,21 @@ main {
     font-weight: 500;
 
 }
-
-
 .sosmed-icon {
     display: inline-flex;
     align-items: flex-start;
     gap: 9px;
     margin-bottom: 22px;
 }
-
 .sosmed-icon a {
     padding: 1.65px;
     flex-direction: column;
     align-items: start;
     gap: 8px;
 }
-
 .sosmed-icon a img {
     border-radius: 8px;
 }
-
 .sidebar-info {
     background: var(--bg);
     padding: 20px 25px;
@@ -154,7 +186,6 @@ main {
     flex-shrink: 0;
 
 }
-
 .contact-card {
     display: inline-flex;
     align-items: center;
@@ -164,7 +195,6 @@ main {
     align-items: center;
     padding-bottom: 14px;
 }
-
 .contact-icon {
     padding: 20px;
     display: flex;
@@ -172,12 +202,10 @@ main {
     gap: 10px;
 
 }
-
 .contact-icon img {
     width: 22px;
     height: 21px;
 }
-
 .contact-tittle {
     padding: 5px 0px;
     display: flex;
@@ -185,14 +213,12 @@ main {
     align-items: flex-start;
 
 }
-
 .contact-tittle span {
     color: rgba(26, 16, 3, 0.50);
     font-family: var(--ff--raleway);
     font-size: 14px;
     font-style: normal;
 }
-
 .contact-tittle h5 {
     color: #000;
     font-family: var(--ff--raleway);
@@ -201,9 +227,6 @@ main {
     font-weight: 540;
     line-height: 20px;
 }
-
-
-
 .sidebar-button {
     display: inline-flex;
     padding: 10px 20px;
@@ -220,7 +243,22 @@ main {
 }
 
 
-/* NAVBAR        */
+    
+
+
+
+    
+
+
+    /* 
+    
+    
+    NAVBAR        
+    
+    
+    */
+
+
 
 
 .navbar {
@@ -237,13 +275,6 @@ main {
     border: 2px solid var(--abu);
 
 }
-
-
-
-
-
-
-
 .navbar-button {
     display: flex;
     gap: 40px;
@@ -253,7 +284,6 @@ main {
 
 
 }
-
 .navbar-item {
     height: 80px;
     width: 80px;
@@ -268,8 +298,6 @@ main {
     font-weight: 600;
     line-height: 20px;
 }
-
-
 .nav-img {
     display: flex;
     flex-direction: column;
@@ -278,11 +306,6 @@ main {
     padding-top: 13px;
     text-align: center;
 }
-
-
-
-
-
 .navbar-item.active {
     color: white;
     background: orange;
@@ -291,6 +314,27 @@ main {
 
 
 
+
+
+
+
+
+
+
+
+
+ 
+
+
+    /* 
+ 
+ 
+ 
+    home
+ 
+ 
+ 
+    */
 
 
 
@@ -329,7 +373,9 @@ main {
     letter-spacing: 1px;
     padding-top: 38px;
 }
+
 .home-tittle img{margin-bottom: 12px;}
+
 .home p {
     padding-top: 24px;
     color: #000;
@@ -339,13 +385,11 @@ main {
     font-weight: 500;
     line-height: 30px;
 }
-
 .service {
     padding-left: 73px;
     padding-top: 52px;
     padding-right: 65px;
 }
-
 .service-tittle {
     color: #000;
     font-family: var(--ff--poppins);
@@ -355,7 +399,6 @@ main {
     line-height: 40px;
     letter-spacing: 0.8px;
 }
-
 .service-paraf {
     display: flex;
     padding: 28px 0px;
@@ -364,7 +407,6 @@ main {
     align-items: center;
 
 }
-
 .strength {
     width: 333px;
     height: 169px;
@@ -374,19 +416,17 @@ main {
     align-items: center;
     padding: 0px 35px;
 }
-.strength.img2 {
-    background: #F2F7FC;
-}
+
+.strength.img2 {background: #F2F7FC;}
+
 .web {
     display: flex;
     align-items: center;
     padding-top: 10px;
 }
 
-.web img {
-    padding-right: 5px;
-}
-
+.web img {padding-right: 5px;}
+    
 .web h2 {
     font-family: var(--ff--poppins);
     font-size: 24px;
@@ -394,10 +434,6 @@ main {
     font-weight: 600;
     line-height: 20px;
 }
-
-
-
-
 .strength p {
     color: #000;
     font-family: var(--ff--raleway);
@@ -413,7 +449,27 @@ main {
 
 
 
+    
 
+
+
+
+
+
+
+    
+
+
+
+
+    /* 
+    
+    
+    Resume
+    
+    
+    
+    */
 
 
 
@@ -423,7 +479,6 @@ main {
 .resume {
     margin-top: 152px;
 }
-
 .resume-all {
     background: var(--bgwhite);
     width: 875px;
@@ -432,7 +487,6 @@ main {
     border-radius: 20px;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
 }
-
 .resume-tittle {
     padding-top: 38px;
     padding-left: 72px;
@@ -445,6 +499,7 @@ main {
     line-height: 40px;
     letter-spacing: 1px;
 }
+
 .resume-tittle img{margin-bottom: 12px;}
 
 .resume-head {
@@ -454,7 +509,6 @@ main {
     padding-left: 72px;
     padding-top: 23px;
 }
-
 .resume-heading {
     color: #000;
     font-family: var(--ff--poppins);
@@ -463,14 +517,11 @@ main {
     font-weight: 500;
     line-height: 46.229px;
 }
-
 .resume-img {
     text-align: center;
     align-items: center;
     padding-right: 5px;
-
 }
-
 .resume-content {
     display: flex;
     padding: 20px;
@@ -484,10 +535,9 @@ main {
     height: 115px;
     flex-shrink: 0;
 }
-.resume-content.img2 {
-    background: #FFEED9;
-}
 
+.resume-content.img2 {  background: #FFEED9;}
+  
 .year {
     color: rgba(26, 16, 3, 0.50);
     font-family: var(--ff--raleway);
@@ -496,7 +546,6 @@ main {
     font-weight: 400;
     line-height: normal;
 }
-
 .resume-content h4 {
     font-family: var(--ff--raleway);
     font-size: 13.869px;
@@ -504,7 +553,6 @@ main {
     font-weight: 550;
     line-height: normal;
 }
-
 .resume-content p {
     font-family: var(--ff--raleway);
     font-size: 13.869px;
@@ -512,12 +560,9 @@ main {
     font-weight: 500;
     line-height: normal;
 }
-
-
 .skills {
     padding-top: 195px;
 }
-
 .skills-info {
     display: flex;
     align-items: flex-start;
@@ -529,7 +574,6 @@ main {
     background: #F8FBFB;
 
 }
-
 .skills-head {
     font-family: var(--ff--poppins);
     font-size: 27.737px;
@@ -538,8 +582,6 @@ main {
     line-height: 46.229px;
     letter-spacing: 0.693px;
 }
-
-
 .skills-logo {
     display: inline-flex;
     column-gap: 40px;
@@ -548,7 +590,6 @@ main {
     flex-wrap: wrap;
     padding-right: 100px;
 }
-
 .skills-work {
     display: flex;
     padding: 4px 8px;
@@ -557,7 +598,6 @@ main {
     border-radius: 8px;
     background: #E1E8EF;
 }
-
 .skills-work p {
     font-family: var(--ff--raleway);
     font-size: 12px;
@@ -568,13 +608,21 @@ main {
 }
 
 
+    
 
+
+
+
+    /* 
+    
+    contact 
+    
+    */
 
 
 .contact {
     margin-top: 152px;
 }
-
 .contact-all {
     background: var(--bgwhite);
     width: 875px;
@@ -584,7 +632,6 @@ main {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
     padding-top: 28px;
 }
-
 .contact-head {
     display: inline-flex;
     align-items: center;
@@ -600,18 +647,15 @@ main {
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
 .contact-no-email {
     display: flex;
     gap: 27px;
     padding-left: 72px;
 }
-
 .contact-tittle {
     display: block;
 
 }
-
 .contact-info {
     width: 333px;
     height: 150px;
@@ -625,9 +669,7 @@ main {
     background: #F2F7FC;
 }
 
-.contact-info img {
-    padding-right: 10px;
-}
+.contact-info img {padding-right: 10px;}
 
 .contact-info h3 {
     color: #000;
@@ -638,7 +680,6 @@ main {
     line-height: 20px;
     letter-spacing: 0.4px;
 }
-
 .contact-info p {
     color: rgba(0, 0, 0, 0.85);
     font-family: var(--ff--poppins);
@@ -649,15 +690,10 @@ main {
     letter-spacing: 0.35px;
     padding-left: 35px;
 }
-
-
-
-
 .k-form {
     padding-left: 72px;
     padding-top: 32px;
 }
-
 .contact-form {
     width: 694px;
     height: 392px;
@@ -676,19 +712,16 @@ main {
     padding-left: 39px;
     padding-right: 76px;
 }
-
 .formulir {
     display: flex;
     flex-direction: column;
     padding-top: 14px;
     padding-bottom: 8px;
 }
-
 .form-input {
     background: none;
     border-bottom: 1px solid #B5B5B5;
 }
-
 .submit {
     display: inline-flex;
     padding: 10px 30px;
@@ -698,7 +731,6 @@ main {
     border-radius: 20px;
     border: 1px solid #FD8A18;
 }
-
 .but {
     padding-top: 26px;
 }
@@ -710,11 +742,14 @@ main {
 
 /* responsive */
 
+
+
 @media(max-width: 1024px) {
     head {
         top: 0;
         left: 0;
     }
+    
 
     main {
         display: flex;
@@ -765,6 +800,15 @@ main {
         width: 920px;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width: 767px) {
@@ -844,6 +888,13 @@ main {
         height: 460px;
     }
 }
+
+
+
+
+
+
+
 
 @media(max-width:599px) {
     .head {
@@ -942,8 +993,7 @@ main {
         height: 330px;
         padding-left: 20px;
     }
-    .contact {
-    }
+   
     .contact-all {
         width: 285px;
     }
@@ -958,8 +1008,7 @@ main {
     .contact-no-email {
         padding: 0;
     }
-    .contact-tittle {
-    }
+  
 
     .contact-info {
         width: 281px;
