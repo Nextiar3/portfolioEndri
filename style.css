@@ -221,7 +221,7 @@ main {
 
 
 /* NAVBAR        */
-.main-content {}
+
 
 .navbar {
     position: absolute;
@@ -251,6 +251,7 @@ main {
     align-items: center;
     text-align: center;
 
+
 }
 
 .navbar-item {
@@ -261,6 +262,11 @@ main {
     border: 1px solid var(--abu);
     row-gap: 25rem;
     text-align: center;
+    color: #000;
+    font-family: var(--ff--raleway);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 
@@ -271,17 +277,15 @@ main {
     width: 80px;
     padding-top: 13px;
     text-align: center;
-    color: #000;
 }
 
 
-.nav-img:hover {
-    color: var(--bgwhite);
-}
 
 
-.navbar-item:hover {
-    background: var(--primary);
+
+.navbar-item.active {
+    color: white;
+    background: orange;
 }
 
 
@@ -310,7 +314,7 @@ main {
 .home {
     padding-left: 73px;
     padding-right: 65px;
-    
+
     margin-top: 152px;
 
 }
@@ -325,7 +329,7 @@ main {
     letter-spacing: 1px;
     padding-top: 38px;
 }
-
+.home-tittle img{margin-bottom: 12px;}
 .home p {
     padding-top: 24px;
     color: #000;
@@ -370,7 +374,9 @@ main {
     align-items: center;
     padding: 0px 35px;
 }
-
+.strength.img2 {
+    background: #F2F7FC;
+}
 .web {
     display: flex;
     align-items: center;
@@ -411,9 +417,7 @@ main {
 
 
 
-.section-home {
-    /* display: none; */
-}
+
 
 
 .resume {
@@ -441,6 +445,7 @@ main {
     line-height: 40px;
     letter-spacing: 1px;
 }
+.resume-tittle img{margin-bottom: 12px;}
 
 .resume-head {
     display: flex;
@@ -479,6 +484,9 @@ main {
     height: 115px;
     flex-shrink: 0;
 }
+.resume-content.img2 {
+    background: #FFEED9;
+}
 
 .year {
     color: rgba(26, 16, 3, 0.50);
@@ -514,7 +522,7 @@ main {
     display: flex;
     align-items: flex-start;
     width: 875px;
-    height: 285px;
+    height: 263px;
     padding-left: 85px;
     gap: 5px;
     border-radius: 0px 0px 8px 8px;
@@ -557,10 +565,6 @@ main {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.24px;
-}
-
-.section-resume {
-    /* display: none; */
 }
 
 
@@ -616,6 +620,9 @@ main {
     background: #FFEED9;
     padding-left: 26px;
     padding-top: 22px;
+}
+.contact-info.img2 {
+    background: #F2F7FC;
 }
 
 .contact-info img {
@@ -676,6 +683,7 @@ main {
     padding-top: 14px;
     padding-bottom: 8px;
 }
+
 .form-input {
     background: none;
     border-bottom: 1px solid #B5B5B5;
@@ -690,6 +698,7 @@ main {
     border-radius: 20px;
     border: 1px solid #FD8A18;
 }
+
 .but {
     padding-top: 26px;
 }
@@ -723,13 +732,13 @@ main {
         margin-top: 15px;
         width: 40%;
     }
-  
+
     .sidebar {
         display: flex;
         align-items: center;
         width: 920px;
         height: 870px;
-        margin-left: 90px ;
+        margin-left: 90px;
         font-size: 1px;
         margin-bottom: 20px;
     }
@@ -740,12 +749,13 @@ main {
         margin-left: 90px;
         width: 920px;
     }
-    
-    
+
+
     .resume-all {
         margin-left: 90px;
         width: 920px;
     }
+
     .skills-info {
         width: 920px;
     }
@@ -764,7 +774,7 @@ main {
 
     main {
         width: 100%;
-        
+
     }
 
     .navbar {
@@ -776,38 +786,43 @@ main {
         backdrop-filter: blur(5px);
         border: 1px solid var(--abu);
     }
-   
+
     .sidebar {
         width: 600px;
         margin-left: 0;
         margin-bottom: 20px;
     }
+
     .section-home {
         width: 600px;
         height: 900px;
         margin-left: 0;
     }
 
-    .homeee  {
+    .homeee {
         height: 830px;
     }
+
     .service-paraf {
         display: flex;
         flex-wrap: wrap;
     }
+
     .resume-all {
         width: 600px;
         height: 900px;
         margin-left: 0;
     }
+
     .resume-all {
         padding-top: 20px;
     }
+
     .resume-head {
         flex-wrap: wrap;
 
     }
- 
+
     .skills-info {
         width: 600px;
         height: 225px;
@@ -818,10 +833,12 @@ main {
         margin-left: 0;
         height: 950px;
     }
+
     .contact-no-email {
         display: flex;
         flex-wrap: wrap;
     }
+
     .contact-form {
         width: 450px;
         height: 460px;
@@ -832,57 +849,87 @@ main {
     .head {
         margin: 0;
         padding-top: 130px;
+        padding-bottom: 0px;
     }
+
     main {
-        width: 100%;
+        max-width: 100%;
         padding: 0;
         margin: 0;
     }
+
     .navbar {
         width: 275px;
         backdrop-filter: blur(1px);
         border: 1px solid rgb(224, 219, 214);
 
     }
+
     .navbar-item {
         width: 30px;
         background: none;
         border: none;
         left: 0;
     }
-   
 
-    .navbar-item:hover {
-        background: none ;
+
+    .navbar-item.active {
+        background: none;
+        color: var(--primary);
     }
 
     .sidebar {
         width: 285px;
     }
+    
+    .sosmed-icon {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
     .section-home {
         width: 285px;
         height: 1550px;
+        margin: 0px;
+        padding: 0px;
     }
+
     .homeee {
         height: 1400px;
+
     }
+
     .home {
-        font-size: 2px;
+        padding-left: 10px;
+    }
+    .home-tittle {
+        font-size: 30px;
+    }
+    .home p {
+        font-size: 12px;
+        padding-left: 10px;
     }
     .strength {
         height: 300px;
     }
+    .service-tittle {
+        font-size: 26px;
+    }
+
     .resume-all {
         width: 285px;
         height: 1020px;
     }
+
     .resume-tittle {
         padding: 20px;
 
     }
+
     .resume-head {
         padding: 10px;
     }
+
     .resume-content {
         width: 200px;
     }
@@ -893,25 +940,41 @@ main {
         flex-wrap: wrap;
         padding: 2px;
         height: 330px;
+        padding-left: 20px;
     }
-
+    .contact {
+    }
     .contact-all {
         width: 285px;
     }
+
     .contact-head {
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
+
     .contact-no-email {
         padding: 0;
     }
+    .contact-tittle {
+    }
+
     .contact-info {
         width: 281px;
+
     }
+
     .k-form {
         width: 285px;
         padding: 0;
+
     }
+
     .contact-form {
         width: 285px;
+        font-size: 10px;
+
     }
 }
